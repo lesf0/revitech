@@ -444,8 +444,31 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 	font-size: 16px;
 	font-family: Lato-Bold-Italic;
 }
-
 .slider-text-block-text {
 	line-height: 1.2;
 	margin-top:  15px;
+}
+
+.slider-with-block {
+	margin-bottom:  100px;
+}
+
+.task-text {
+	text-align: left;
+	font-size: 15px;
+	color: #414b59;
+	line-height: 1.2;
+	padding-right:  45px;
+
+	border-bottom: 3px solid #e8eef1;
+	padding-bottom:  25px;
+	margin-bottom: 80px;
+}
+.task-text-img {
+	float: left;
+	width:  160px;
+	padding: 0.6em 0;
+}
+.task-text-img img {
+	margin: auto;
 }
