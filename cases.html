@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF8">
+	<title>Заголовок</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+	<link href="css/slick.css" rel="stylesheet">
+	<link href="css/fancybox.css" rel="stylesheet">
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery-migrate.js"></script>
+	<script src="js/custom.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/fancybox.js"></script>
+</head>
+
+<body>
+<header>
+<div class="container">
+	<div class="header clear">
+		<div class="top-logo"><a href="index.html"><img src="img/logo.png"></a></div>
+		<div class="top-slogan">Поставки инженерного оборудования на территории России</div>
+		<div class="top-both"></div>
+		<div class="top-info">
+			<p>Склад находится в г. Пермь</p>
+			<p><a href="#city_popup" class="top-city city_popups">Пермь</a> / <span class="top-tel">8 (342) 299-98-44</span></p>
+			<p><a href="#">Личный кабинет</a> / <a href="#">Регистрация</a></p>
+		</div>
+		<div class="top-cart">
+			<p><span>0.00</span> рублей</p>
+			<p><span>0</span> товаров</p>
+		</div>
+	</div>
+</div>
+<nav class="topmenu">
+	<ul class="clear">
+		<li class="has-children">
+			<a href="#">Каталог</a>
+			<ul class="submenu">
+				<li><a href="#">Насосы</a></li>
+				<li><a href="#">Котлы</a></li>
+				<li><a href="#">Водонагреватели</a></li>
+			</ul>
+		</li>
+		<li class="has-children">
+			<a href="#">О компании</a>
+			<ul class="submenu">
+				<li><a href="#">Сертификаты</a></li>
+				<li><a href="#">Новости</a></li>
+				<li><a href="#">Объекты</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Самообслуживание</a></li>
+				<li><a href="#">Письмо директору</a></li>
+			</ul>
+		</li>
+		<li class="has-children">
+			<a href="#">Услуги</a>
+			<ul class="submenu">
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">О компании</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Решения</a></li>
+		<li><a href="#">Доставка и оплата</a></li>
+		<li><a href="#">Контакты</a></li>
+		<li><button id="search-button"><img src="img/search.png"></button></li>
+	</ul>
+</nav>
+<a href="#" id="show_menu"><img src="img/menu.png"></a>
+<div class="search-block">
+	<div class="container">
+		<form action="#" method="GET">
+			<input type="text" name="search" placeholder="Поиск по сайту..."><input type="submit" class="button myata" value="Искать">
+		</form>
+		<div class="search-close"></div>
+	</div>
+</div>
+</header>
+
+<div class="section grey" id="clients">
+	<div class="container">
+		<div class="section-title">Выполненные проекты</div>
+		<div class="section-under-title"></div>
+		<div class="project-multiple-container">
+			<div class="clear">
+				<div class="project-img"><img src="img/project.jpg" alt=""></div>
+				<div class="project-content">
+					<div class="project-title">Биологические очистные сооружения г.Пермь</div>
+					<div class="project-text">
+						<span>Задача:</span>
+						<p>В связи с увеличением количества сбрасываемых стоков появилась необходимость в реконструкции очистных сооружений.</p>
+						<span>Решение:</span>
+						<ul>
+							<li>Была проведена реконструкция важнейших элементов биологических очистных сооружений, внедрена более эффективная технология очистки, повышена мощность сооружений;</li>
+							<li>Поставлена 131 единица оборудования (мешалки AMD, иловые насосы SRP) и систем управления к ним.</li>
+						</ul>
+						<span>Сроки и стоимость поставки:</span>
+						<div class="project-icon">
+							<img src="img/calendar.png" alt="">
+							<span>Сроки поставки:</span>
+							<p>2008-2014 годы</p>
+						</div>
+						<div class="project-icon">
+							<img src="img/price.png" alt="">
+							<span>Стоимость поставки:</span>
+							<p>Около 820 000 евро</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr class="project-separator">
+			
+			<div class="clear">
+				<div class="project-img"><img src="img/project.jpg" alt=""></div>
+				<div class="project-content">
+					<div class="project-title">Биологические очистные сооружения г.Пермь №2</div>
+					<div class="project-text">
+						<span>Задача:</span>
+						<p>В связи с увеличением количества сбрасываемых стоков появилась необходимость в реконструкции очистных сооружений.</p>
+						<span>Решение:</span>
+						<ul>
+							<li>Была проведена реконструкция важнейших элементов биологических очистных сооружений, внедрена более эффективная технология очистки, повышена мощность сооружений;</li>
+							<li>Поставлена 131 единица оборудования (мешалки AMD, иловые насосы SRP) и систем управления к ним.</li>
+						</ul>
+						<span>Сроки и стоимость поставки:</span>
+						<div class="project-icon">
+							<img src="img/calendar.png" alt="">
+							<span>Сроки поставки:</span>
+							<p>2008-2014 годы</p>
+						</div>
+						<div class="project-icon">
+							<img src="img/price.png" alt="">
+							<span>Стоимость поставки:</span>
+							<p>Около 820 000 евро</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<hr class="project-separator">
+			
+			<div class="clear">
+				<div class="project-img"><img src="img/project.jpg" alt=""></div>
+				<div class="project-content">
+					<div class="project-title">Биологические очистные сооружения г.Пермь №2</div>
+					<div class="project-text">
+						<span>Задача:</span>
+						<p>В связи с увеличением количества сбрасываемых стоков появилась необходимость в реконструкции очистных сооружений.</p>
+						<span>Решение:</span>
+						<ul>
+							<li>Была проведена реконструкция важнейших элементов биологических очистных сооружений, внедрена более эффективная технология очистки, повышена мощность сооружений;</li>
+							<li>Поставлена 131 единица оборудования (мешалки AMD, иловые насосы SRP) и систем управления к ним.</li>
+						</ul>
+						<span>Сроки и стоимость поставки:</span>
+						<div class="project-icon">
+							<img src="img/calendar.png" alt="">
+							<span>Сроки поставки:</span>
+							<p>2008-2014 годы</p>
+						</div>
+						<div class="project-icon">
+							<img src="img/price.png" alt="">
+							<span>Стоимость поставки:</span>
+							<p>Около 820 000 евро</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer class="clear">
+	<div class="container">
+		<div class="footer-block">
+			<p>©1980-2016. ООО «Ревитех-Пермь»<br>
+			Все права защищены.</p>
+			<p>г. Пермь, ул. Промышленная, д. 61<br>
+			8 (342) 299-98-44</p>
+			<p>ИНН: 5905275240<br>
+			ОГРН: 1105905000134<br>
+			ОКПО / ОКАТО: 63329741 / 57401367000</p>
+			<p>Политика конфиденциальности</p>
+		</div>
+		<div class="footer-block" style="padding: 0px;">
+			<div class="footer-payment clear">
+				<img src="img/pay/visa.png" alt="">
+				<img src="img/pay/mastercard.png" alt="">
+				<img src="img/pay/webmoney.png" alt="">
+				<img src="img/pay/yandex.png" alt="">
+				<img src="img/pay/qiwi.png" alt="">
+			</div>
+			<ul class="clear">
+				<li><a href="#">О компании</a></li>
+				<li><a href="#">Поставка</a></li>
+				<li><a href="#">Проекты</a></li>
+				<li><a href="#">Каталог</a></li>
+				<li><a href="#">Сервис</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#">Сертификаты</a></li>
+				<li><a href="#">Проектирование</a></li>
+				<li><a href="#">Контакты</a></li>
+				<li><a href="#">Тех. документация</a></li>
+			</ul>
+		</div>
+		<div class="footer-block">
+			<a href="#" class="social youtube"></a>
+			<a href="#" class="social vk"></a>
+			<a href="#" class="social facebook"></a>
+		</div>
+	</div>
+</footer>
+
+<div id="city_popup" style="display:none;">
+<div class="popup_title">Выберите регион, в котором вы находитесь</div>
+<div class="city_search"></div>
+<div class="city_list">
+<div class="word_row">
+<div class="word_block">
+<p>А<p>
+<ul>
+<li><a href="#">Абакан</a></li>
+<li><a href="#">Ангарск</a></li>
+<li><a href="#">Арзамас</a></li>
+<li><a href="#">Армавир</a></li>
+<li><a href="#">Архангельск</a></li>
+<li><a href="#">Астрахань</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Б<p>
+<ul>
+<li><a href="#">Балашиха</a></li>
+<li><a href="#">Барнаул</a></li>
+<li><a href="#">Батайск</a></li>
+<li><a href="#">Белгород</a></li>
+<li><a href="#">Бердск</a></li>
+<li><a href="#">Березники</a></li>
+<li><a href="#">Бийск</a></li>
+<li><a href="#">Биробиджан</a></li>
+<li><a href="#">Благовещенск</a></li>
+<li><a href="#">Братск</a></li>
+<li><a href="#">Брянск</a></li>
+<li><a href="#">Буденновск</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>В<p>
+<ul>
+<li><a href="#">Великие Луки</a></li>
+<li><a href="#">Великий Новгород</a></li>
+<li><a href="#">Владивосток</a></li>
+<li><a href="#">Владикавказ</a></li>
+<li><a href="#">Владимир</a></li>
+<li><a href="#">Волгоград</a></li>
+<li><a href="#">Волгодонск</a></li>
+<li><a href="#">Волжский</a></li>
+<li><a href="#">Вологда</a></li>
+<li><a href="#">Воронеж</a></li>
+<li><a href="#">Всеволожск</a></li>
+<li><a href="#">Выборг</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Г<p>
+<ul>
+<li><a href="#">Гатчина</a></li>
+<li><a href="#">Геленджик</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Д<p>
+<ul>
+<li><a href="#">Дзержинск</a></li>
+<li><a href="#">Димитровград</a></li>
+<li><a href="#">Дмитров</a></li>
+<li><a href="#">Долгопрудный</a></li>
+<li><a href="#">Домодедово</a></li>
+<li><a href="#">Дружный</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Е<p>
+<ul>
+<li><a href="#">Егорьевск</a></li>
+<li><a href="#">Екатеринбург</a></li>
+<li><a href="#">Ессентуки</a></li>
+</ul>
+</div>
+</div>
+<div class="word_row">
+<div class="word_block">
+<p>Ж<p>
+<ul>
+<li><a href="#">Железнодорожный</a></li>
+<li><a href="#">Жуковский</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>З<p>
+<ul>
+<li><a href="#">Зеленогорск</a></li>
+<li><a href="#">Зеленоград</a></li>
+<li><a href="#">Зубово</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>И<p>
+<ul>
+<li><a href="#">Иваново</a></li>
+<li><a href="#">Ижевск</a></li>
+<li><a href="#">Иркутск</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Й<p>
+<ul>
+<li><a href="#">Йошкар-Ола</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>К<p>
+<ul>
+<li><a href="#">Казань</a></li>
+<li><a href="#">Калининград</a></li>
+<li><a href="#">Калуга</a></li>
+<li><a href="#">Камышин</a></li>
+<li><a href="#">Канск</a></li>
+<li><a href="#">Каспийск</a></li>
+<li><a href="#">Кемерово</a></li>
+<li><a href="#">Киров</a></li>
+<li><a href="#">Киселевск</a></li>
+<li><a href="#">Кисловодск</a></li>
+<li><a href="#">Клин</a></li>
+<li><a href="#">Комсомольск-на-Амуре</a></li>
+<li><a href="#">Коломна</a></li>
+<li><a href="#">Колпино</a></li>
+<li><a href="#">Копейск</a></li>
+<li><a href="#">Королев</a></li>
+<li><a href="#">Кострома</a></li>
+<li><a href="#">Краснодар</a></li>
+<li><a href="#">Красное село</a></li>
+<li><a href="#">Красноярск</a></li>
+<li><a href="#">Курган</a></li>
+<li><a href="#">Курск</a></li>
+<li><a href="#">Кызыл</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Л<p>
+<ul>
+<li><a href="#">Липецк</a></li>
+<li><a href="#">Люберцы</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>М<p>
+<ul>
+<li><a href="#">Магнитогорск</a></li>
+<li><a href="#">Майкоп</a></li>
+<li><a href="#">Махачкала</a></li>
+<li><a href="#">Миасс</a></li>
+<li><a href="#">Москва</a></li>
+<li><a href="#">Мурманск</a></li>
+<li><a href="#">Мытищи</a></li>
+</ul>
+</div>
+</div>
+<div class="word_row">
+<div class="word_block">
+<p>Н<p>
+<ul>
+<li><a href="#">Набережные Челны</a></li>
+<li><a href="#">Нальчик</a></li>
+<li><a href="#">Находка</a></li>
+<li><a href="#">Невинномысск</a></li>
+<li><a href="#">Нерюнгри</a></li>
+<li><a href="#">Нижневартовск</a></li>
+<li><a href="#">Нижний Новгород</a></li>
+<li><a href="#">Нижний Тагил</a></li>
+<li><a href="#">Новокузнецк</a></li>
+<li><a href="#">Новокуйбышевск</a></li>
+<li><a href="#">Новороссийск</a></li>
+<li><a href="#">Новосибирск</a></li>
+<li><a href="#">Новочебоксарск</a></li>
+<li><a href="#">Новочеркасск</a></li>
+<li><a href="#">Новошахтинск</a></li>
+<li><a href="#">Новый Уренгой</a></li>
+<li><a href="#">Ногинск</a></li>
+<li><a href="#">Норильск</a></li>
+<li><a href="#">Ноябрьск</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>О<p>
+<ul>
+<li><a href="#">Обнинск</a></li>
+<li><a href="#">Оленегорск</a></li>
+<li><a href="#">Омск</a></li>
+<li><a href="#">Орел</a></li>
+<li><a href="#">Оренбург</a></li>
+<li><a href="#">Орехово-Зуево</a></li>
+<li><a href="#">Орск</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>П<p>
+<ul>
+<li><a href="#">Пенза</a></li>
+<li><a href="#">Пермь</a></li>
+<li><a href="#">Петрозаводск</a></li>
+<li><a href="#">Петропавловск-Камчатский</a></li>
+<li><a href="#">Подольск</a></li>
+<li><a href="#">Прокопьевск</a></li>
+<li><a href="#">Прохладный</a></li>
+<li><a href="#">Псков</a></li>
+<li><a href="#">Путилково</a></li>
+<li><a href="#">Пушкин</a></li>
+<li><a href="#">Пушкино</a></li>
+<li><a href="#">Пятигорск</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Р<p>
+<ul>
+<li><a href="#">Раменское</a></li>
+<li><a href="#">Реутов</a></li>
+<li><a href="#">Ростов-на-Дону</a></li>
+<li><a href="#">Рубцовск</a></li>
+<li><a href="#">Румянцево</a></li>
+<li><a href="#">Рыбинск</a></li>
+<li><a href="#">Рязань</a></li>
+</ul>
+</div>
+</div>
+<div class="word_row">
+<div class="word_block">
+<p>С<p>
+<ul>
+<li><a href="#">Салават</a></li>
+<li><a href="#">Самара</a></li>
+<li><a href="#">Санкт-Петербург</a></li>
+<li><a href="#">Саранск</a></li>
+<li><a href="#">Саратов</a></li>
+<li><a href="#">Севастополь</a></li>
+<li><a href="#">Северодвинск</a></li>
+<li><a href="#">Североморск</a></li>
+<li><a href="#">Северск</a></li>
+<li><a href="#">Сергиев Посад</a></li>
+<li><a href="#">Серпухов</a></li>
+<li><a href="#">Симферополь</a></li>
+<li><a href="#">Смоленск</a></li>
+<li><a href="#">Солнечногорск</a></li>
+<li><a href="#">Сосновый Бор</a></li>
+<li><a href="#">Сочи</a></li>
+<li><a href="#">Ставрополь</a></li>
+<li><a href="#">Старый Оскол</a></li>
+<li><a href="#">Стерлитамак</a></li>
+<li><a href="#">Ступино</a></li>
+<li><a href="#">Сургут</a></li>
+<li><a href="#">Сызрань</a></li>
+<li><a href="#">Сыктывкар</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Т<p>
+<ul>
+<li><a href="#">Таганрог</a></li>
+<li><a href="#">Тамбов</a></li>
+<li><a href="#">Тверь</a></li>
+<li><a href="#">Тобольск</a></li>
+<li><a href="#">Тольятти</a></li>
+<li><a href="#">Томск</a></li>
+<li><a href="#">Туапсе</a></li>
+<li><a href="#">Тула</a></li>
+<li><a href="#">Тюмень</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>У<p>
+<ul>
+<li><a href="#">Улан-Удэ</a></li>
+<li><a href="#">Ульяновск</a></li>
+<li><a href="#">Уссурийск</a></li>
+<li><a href="#">Уфа</a></li>
+<li><a href="#">Ухта</a></li>
+</ul>
+</div>
+</div>
+<div class="word_row">
+<div class="word_block">
+<p>Х<p>
+<ul>
+<li><a href="#">Хабаровск</a></li>
+<li><a href="#">Ханты-Мансийск</a></li>
+<li><a href="#">Химки</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Ч<p>
+<ul>
+<li><a href="#">Чебоксары</a></li>
+<li><a href="#">Челябинск</a></li>
+<li><a href="#">Череповец</a></li>
+<li><a href="#">Черкесск</a></li>
+<li><a href="#">Черногорск</a></li>
+<li><a href="#">Чехов</a></li>
+<li><a href="#">Чита</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Ш<p>
+<ul>
+<li><a href="#">Шахты</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Щ<p>
+<ul>
+<li><a href="#">Щелково</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Э<p>
+<ul>
+<li><a href="#">Электросталь</a></li>
+<li><a href="#">Элиста</a></li>
+<li><a href="#">Энгельс</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Ю<p>
+<ul>
+<li><a href="#">Юбилейный</a></li>
+<li><a href="#">Южно-Сахалинск</a></li>
+</ul>
+</div>
+<div class="word_block">
+<p>Я<p>
+<ul>
+<li><a href="#">Якутск</a></li>
+<li><a href="#">Ярославль</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div id="zakaz_popup" style="display:none;">
+<div class="popup_title">Заказать проект</div>
+<div class="popup_slogan">Наш менеджер свяжется с Вами в течение 15 минут.</div>
+<div class="popup_form">
+<input type="text" placeholder="Введите Ваше имя...">
+<input type="text" placeholder="Введите E-mail адрес...">
+<input type="text" placeholder="Введите Ваше сообщение">
+<button type="submit" class="button myata">Отправить заявку</button>
+</div>
+</div>
+
+<script>
+$(document).ready(function(){
+
+	$(".city_popups").fancybox({ width: '80%',autoSize:false,autoHeight:true,padding:0 });
+	$(".zakaz_popups").fancybox({ width: '80%',maxWidth:500, autoSize:false,autoHeight:true,padding:0 });
+
+	$(".tabs").lightTabs();
+
+	$('.certificates-block').slick({
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 4,
+		responsive: [
+			{ breakpoint: 1080, settings: { slidesToShow: 3, slidesToScroll: 3 }},
+			{ breakpoint: 880, settings: { slidesToShow: 2, slidesToScroll: 2 }},
+			{ breakpoint: 600, settings: { slidesToShow: 1, slidesToScroll: 1 }},
+		]
+	});
+
+    $('.projects-block .project-item').eq(0).addClass('active').fadeIn(0);
+    $('button#next-project').on('click', AnimateProject);
+	
+	$('button#search-button').click(function() {
+		if($(".search-block" ).is(':visible')) { $(".search-block" ).hide() } else { $(".search-block" ).show()  }
+	});
+	$('div.search-close').click(function() { $(".search-block" ).hide() });
+});
+</script>
+</body>
+</html>
