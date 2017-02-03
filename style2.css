@@ -1,0 +1,47 @@
+.slider-form-block {
+	margin: 35px 0 40px;
+}
+.slider-form {
+	height: 40px;
+}
+.slider-form input {
+	line-height: 40px;
+	width: 200px;
+	font-size: 14px;
+	font-family: Lato-Italic;
+	color: #414b59;
+	padding: 0 15px;
+	background: #e1e2e6;
+	border-radius: 3px;
+}
+.slider-form button {
+	line-height: 40px;
+	width: 165px;
+	text-align: center;
+	background: #3b9194;
+	color: #fff;
+	font-family: Lato-Bold;
+	font-size: 14px;
+	border-radius: 3px;
+}
+
+
+.slider-number-holder {
+	float: left;
+	font-family: Lato-Bold;
+	font-size: 16px;
+	text-transform: uppercase;
+	line-height: 30px;
+	width: 320px;
+}
+.slider-number-holder:first-child {
+	width: 220px;
+}
+.slider-number {
+	float: left;
+	margin-right: 13px;
+	color: #3b9194;
+	font-size: 60px;
+	line-height: 1;
+	font-family: Lato-Bold;
+}
