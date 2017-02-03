@@ -586,3 +586,34 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 .bold {
 	font-family: Lato-Bold;
 }
+
+
+.section-descr {
+	font-size:  16px;
+	font-family: Lato-Bold-Italic;
+	text-align: center;
+	color: #3b9194;
+	padding: 0 60px;
+	margin: 30px 0 0;
+}
+
+.ul-icon {
+	margin: 45px 0 45px;
+}
+.ul-icon li {
+	background: none;
+	padding: 0;
+}
+.ul-icon li div {
+	display: inline-block;
+	width: 80%;
+	width: calc(100% - 70px);
+	vertical-align: middle;
+}
+.ul-icon li::before {
+	content: url(img/icon.png);
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 15px;
+}
+.onecase-certificates-block img { width:458px;height:355px;border:1px solid #e8e9ed;margin: 0 auto; }
