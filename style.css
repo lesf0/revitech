@@ -785,3 +785,33 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 	color: #31797b;
 	font-size: 16px;
 }
+
+.about-list {
+	margin: 30px 0;
+}
+.about-list li {
+	width: 320px;
+	float: right;
+}
+.about-list li h6 {
+	text-transform: uppercase;
+	color: #31797b;
+	font-size:  16px;
+}
+.about-list li p {
+	font-size: 15px;
+	font-family: Lato-Italic;
+	color: #414b59;
+}
+.about-list li p::before {
+	content: '';
+	display: inline-block;
+	width: 12px;
+	height: 10px;
+	background: url(img/onecase/check.png) center no-repeat;
+	background-size: contain;
+	margin-right:  5px;
+}
+.about-list-section {
+	margin-bottom: 30px;
+}
