@@ -748,3 +748,40 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 	font-family: Lato-Bold-Italic;
 	color: #fff;
 }
+
+
+.half-block {
+	width: 50%;
+	float: left;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.half-block > div {
+	display: inline-block;
+	text-align: left;
+	white-space: nowrap;
+}
+@media screen and (max-width:800px) {
+	.half-block {
+		width: 100%;
+	}
+}
+
+
+.div-icon > * {
+	display: inline-block;
+	width: 80%;
+	width: calc(100% - 70px);
+	vertical-align: middle;
+}
+.div-icon::before {
+	content: url(img/icon.png);
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.div-icon h6 {
+	color: #31797b;
+	font-size: 16px;
+}
