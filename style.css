@@ -815,3 +815,21 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 .about-list-section {
 	margin-bottom: 30px;
 }
+
+.commercial-icon {
+	height: 202px;
+}
+.commercial-item {
+	width: 25%;
+}
+.commercial-block {
+	position: relative;
+	margin: 0 -16px;
+}
+
+.commercial-icon .delivery-title {
+	min-height: 56px;
+}
+.commercial-icon .delivery-title a {
+	line-height: 1.2;
+}
