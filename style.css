@@ -833,3 +833,5 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 .commercial-icon .delivery-title a {
 	line-height: 1.2;
 }
+
+.quote2-bg { background:url('img/commercial/plan.jpg') #019295 top center no-repeat; }
