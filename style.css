@@ -455,7 +455,21 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 }
 
 .slider-with-block {
-	margin-bottom:  100px;
+	margin-bottom: 100px;
+	position: relative;
+	z-index: 0;
+}
+
+.slider-with-block::after {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 100%;
+	height: 100px;
+	background: #f4f5fa;
+	z-index: -1;
 }
 
 .task-text {
