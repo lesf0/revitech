@@ -849,3 +849,22 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 }
 
 .quote2-bg { background:url('img/commercial/plan.jpg') #019295 top center no-repeat; }
+
+.commercial-block {
+	position: relative;
+	margin-bottom: -26px;
+}
+.industry-item {
+	margin-bottom: 10px;
+}
+.industry-item .one-line {
+	padding-top: 18px;
+}
+
+.partners-slider-block { padding: 40px 50px; margin-top: -5px; }
+.partners-slider-block img { width:140px;height:80px;margin: 0 auto; }
+.partners-slider-block .slick-arrow { width:26px;height:50px;position:absolute;text-indent:-9999px;top:50%;margin-top:-25px;cursor:pointer;background: url(img/controls.png) no-repeat; }
+.partners-slider-block .slick-prev { background-position:0px 0px;left:0px;z-index: 2; }
+.partners-slider-block .slick-next { background-position:-26px 0px;right:0px;z-index: 2; } 
+
+.geo-no-mrg { margin-bottom: 0; }
