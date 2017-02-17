@@ -418,10 +418,10 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 		background: #3b9194;
 	}
 	.contacts-text { left: 10px;margin-left:0; }
-	.topmenu ul li button { display: none; }
+	.topmenu ul li button { width: 100%; }
 	.search-block .container input[type=text] { height: 35px; }
 	.search-block .button { padding: 6px 20px 6px 20px; }
-	.search-block { bottom: 0px;    position: fixed; }
+	.search-block { bottom: 0px; left:  0; right:  0;   position: fixed; }
 	.search-close { margin-top: 13px; }
 }
 
