@@ -24,9 +24,9 @@ ul li { list-style:none;background: url('img/limark.png') no-repeat 0px 5px;padd
 
 button { cursor:pointer;background:none; }
 
-.clear:after { content: "";display: table;clear: both; }
+.clear::after { content: "";display: table;clear: both; }
 
-header { width:100%;background:#fff; }
+header { width:100%;background:#fff;position:relative; }
 .container { max-width:980px;margin:0 auto;padding:0px 10px; }
 .header { max-width:960px;background:#fff; }
 .top-logo { max-width:171px;padding:15px 0px;margin-right:15px;float:left; }
@@ -319,19 +319,106 @@ div#zakaz_popup .popup_form button { display: block;margin:0 auto;margin-top:40p
 }
 
 @media screen and (max-width:880px) {
-	#show_menu { display:block;width:100%;background:#31797b;height:50px;color:#fff;font-size:18px;text-decoration:none;padding:12px 0px;text-align:center;position: relative; }
+	#show_menu {
+		display:block;
+		width:50px;
+		background:#31797b;
+		height:50px;
+		color:#fff;
+		font-size:18px;
+		text-decoration:none;
+		padding:12px 0px;
+		text-align:center;
+		position: absolute;
+		right: 10px;
+		bottom: 25px;
+	}
 	#show_menu  img { margin:0 auto; }
+	.top-cart {margin-right:60px;}
 	.topmenu { display:none; }
-	.topmenu { position:absolute;margin-top:50px;overflow:auto;height:auto; }
+	.topmenu {
+		position: fixed;
+		margin-top: 0;
+		top: 0;
+		bottom: 0;
+		left: 100%;
+		width: 250px;
+		overflow:hidden;
+		height:auto;
+		transition: all .5s;
+		display: block;
+		/*background: #333 !important;*/
+	}
+	body {
+		transition: all .5s;
+	}
+	body.menu_open {
+		margin-right: 250px;
+		margin-left: -250px;
+	}
+	body.menu_open .topmenu {
+		margin-left: -250px;
+	}
 	.topmenu ul li { display:block;float:none; }
-	.topmenu ul li ul { display: block; }
+	.topmenu ul li ul {
+		display: block;
+		position: absolute !important;
+		left: 100%;
+		margin-left: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+		transition: all .5s;
+		background: #31797b;
+		cursor: pointer;
+	}
+	.topmenu ul li ul::before {
+		content: 'Назад';
+		display: block;
+		line-height: 50px;
+		padding-left: 50px;
+		color: #fff;
+		text-transform: uppercase;
+		font-family: Lato-Regular;
+	}
+	.topmenu ul li ul::after {
+		content: '';
+		display: block;
+		position: absolute;
+		left: 20px;
+		right: 20px;
+		top: 0;
+		height: 50px;
+		background: url(img/arrow-right.png) right center no-repeat !important;
+		transform: scaleX(-1);
+	}
+	.topmenu ul li a.submenu_open + ul {
+		margin-left: -250px;
+	}
+	.topmenu ul li.has-children a , .topmenu ul li.has-children a:hover {
+		background: url(img/arrow-right.png) right center no-repeat !important;
+		padding-left: 20px;
+	}
 	.footer-block ul li { width:50%; }
 	#city_popup .word_row { width:33%; }
 	.topmenu ul li ul.submenu li { padding-left:40px; }
 	.topmenu ul li:hover ul { position:relative; }
-	.topmenu ul li ul.submenu li a { margin-right: -15px;margin-left: -40px;    padding: 15px 40px 14px 40px !important; }
+	.topmenu ul li ul.submenu li a {
+		margin-right: -15px;
+		margin-left: -40px;    
+		padding: 15px 40px 14px 20px !important; }
+	.topmenu ul li ul.submenu li , .topmenu ul li ul.submenu li a:first-child {
+		background: none !important;
+		color:  #fff;
+	}
+	.topmenu ul li ul.submenu li a:first-child:hover {
+		background: #3b9194 !important;
+	}
+	.topmenu ul li ul::before:hover {
+		background: #3b9194;
+	}
 	.contacts-text { left: 10px;margin-left:0; }
-	.topmenu ul li button { width:100%; }
+	.topmenu ul li button { display: none; }
 	.search-block .container input[type=text] { height: 35px; }
 	.search-block .button { padding: 6px 20px 6px 20px; }
 	.search-block { bottom: 0px;    position: fixed; }

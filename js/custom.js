@@ -59,12 +59,25 @@ $(document).ready(function(){
  
     $(touch).on('click', function(e) {
         e.preventDefault();
-        menu.fadeToggle("slow");
+        //menu.fadeToggle("slow");
+        $(document.body).toggleClass('menu_open');
     });
     $(window).resize(function(){
         var wid = $(window).width();
-        if(wid > 880 && menu.is(':hidden')) {
-            menu.removeAttr('style');
+        if(wid > 880) {
+            $(document.body).removeClass('menu_open');
         }
+    });
+
+    menu.find('.has-children > a').click(function(e){
+    	e.preventDefault();
+    	$(this).addClass('submenu_open');
+    });
+    menu.find('.has-children > a + ul').click(function(e){
+    	e.preventDefault();
+    	$(this).prev().removeClass('submenu_open');
+    });
+    menu.find('.has-children > a + ul > *').click(function(e){
+    	e.stopPropagation();
     });
 });
